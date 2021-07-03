@@ -19,14 +19,14 @@
 3. 查看输出缓冲区的大小，在写设备时会用到。 
 
 #### **Compile and run tutorial**  
-1. listdevs.c 和 testlibusb.c 是官方的example, 代码专门挑出来方便学习，若要编译运行要下载libusb-1.0.24, 按照 [libusb开发指南][libusb指南]   
-2. usb_data_tranfer.c 主要参考  [linux下的用libusb读写自定义HID设备][linux下的用libusb读写] 所写，编译用 gcc -o xx xx.c -lusb-1.0  
+1. listdevs.c 和 testlibusb.c 是官方的example, 代码专门挑出来方便学习，若要编译运行要下载libusb-1.0.24, 按照 [libusb开发指南](https://blog.csdn.net/u012247418/article/details/82960889?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase)   
+2. usb_data_tranfer.c 主要参考  [linux下的用libusb读写自定义HID设备](https://www.cnblogs.com/youyipin/p/12733125.html)所写，编译用 gcc -o xx xx.c -lusb-1.0  
 3. 运行要在terminal下，不能在vscode里，以免系统崩溃  
 
 #### **Website examples**  
- [libusb开发指南][libusb指南]
+ [libusb开发指南](https://blog.csdn.net/u012247418/article/details/82960889?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase)
  [libusb的使用教程和例子](https://blog.csdn.net/zb774095236/article/details/83651995?utm_term=libusb&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-9-83651995&spm=3001.4430)  
- [linux下的用libusb读写自定义HID设备][linux下的用libusb读写] 
+ [linux下的用libusb读写自定义HID设备](https://www.cnblogs.com/youyipin/p/12733125.html)  
  [linux下 libusb使用--打开usb设备进行通信](https://blog.csdn.net/u011598479/article/details/82705496)  
  [Android USB HID bulkTransfer()参数解析](https://blog.csdn.net/gd6321374/article/details/78045101)  
  [Linux 下使用libusb 与USB-HID 设备通讯之控制传输](https://blog.csdn.net/gd6321374/article/details/79935186?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-3&spm=1001.2101.3001.4242)  
