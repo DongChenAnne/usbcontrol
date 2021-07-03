@@ -13,6 +13,11 @@
 #### **Install libusb-1.0.24**  
  website: https://www.linuxfromscratch.org/blfs/view/svn/general/libusb.html  
 
+#### **用libusb做Linux下的通讯**  
+1. 使用命令行工具lsusb，查看当前设备的通信端点的通信方式。lsusb -v后，在Endpoint中的Transfer Type可以看到，usb_data_transfer.c里写的是interrupt模式。  
+2. 使用lsusb查看输出端点和输入端点，记录端点号。一般情况为，写设备为0x01，读设备为0x81。
+3. 查看输出缓冲区的大小，在写设备时会用到。  
+
 #### **Website examples**  
  [libusb开发指南](https://blog.csdn.net/u012247418/article/details/82960889?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase)  
  [libusb的使用教程和例子](https://blog.csdn.net/zb774095236/article/details/83651995?utm_term=libusb&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-9-83651995&spm=3001.4430)  
