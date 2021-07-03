@@ -31,8 +31,3 @@
  [Android USB HID bulkTransfer()参数解析](https://blog.csdn.net/gd6321374/article/details/78045101)  
  [Linux 下使用libusb 与USB-HID 设备通讯之控制传输](https://blog.csdn.net/gd6321374/article/details/79935186?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-3&spm=1001.2101.3001.4242)  
 
-
-[libusb指南]：https://blog.csdn.net/u012247418/article/details/82960889?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase
-
-[linux下的用libusb读写]：https://www.cnblogs.com/youyipin/p/12733125.html
-
